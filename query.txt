@@ -1,0 +1,1 @@
+create view t_gangguan as SELECT area,order_tiket,close,performansi,tanggal where tiket='gangguan' FROM	t_performansi
